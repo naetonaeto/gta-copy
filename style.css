@@ -1,0 +1,120 @@
+CSS
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Canvas Styles */
+
+#gameCanvas {
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+}
+
+/* Scoreboard Styles */
+
+.scoreboard {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.score {
+    color: #333;
+}
+
+/* Health and Ammo Styles */
+
+.health {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ammo {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Vehicle Styles */
+
+.vehicle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.car {
+    background-color: red;
+}
+
+.ambulance {
+    background-color: yellow;
+}
+
+.police {
+    background-color: blue;
+}
+
+.helicopter {
+    background-color: gray;
+}
+
+/* Missile Style */
+
+.missile {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+/* Game Over Style */
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Power-up Styles */
+
+.power-up {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+/* Enemy Styles */
+
+.enemy {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
